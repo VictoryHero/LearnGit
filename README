@@ -77,12 +77,18 @@ git branch -D <branch name>
 git merge <branch name>
 
 [远程仓库]
+	git remote 查看创建的远程仓库连接的情况
+	git remote add <remote name> <Url> 增加远程仓库连接
+	git remote remove <remote name> 删除远程仓库连接
+	git remote rename <old name> <new name> 重命名远程仓库连接
+	git remote get-url <remote name> 获得某连接导向的url
+	git remote set-url <remote name> <new url> 重设某连接的导向url
   [Github]
 	在github注册帐号-->点击右上角加号-->New Repository-->选择public仓库-->不选择创建README\liscense\gitignore等文件 -->记录下https / ssh 访问远程仓库的方式 传本地仓库到远程的github
 
-创建本地仓库到远程仓库的链接 (GITHUBUSER_NAME REPOSITORY_NAME根据自己的信息改变)
-(ssh方式) git remote add orgin git@github.com:GITHUBUSER_NAME/REPOSITORY_NAME.git
-(https方式) git remote add orgin https://github.com/GITHUBUSER_NAME/REPOSITORY_NAME.git
+创建本地仓库到远程仓库的连接 命名为origin (GITHUBUSER_NAME REPOSITORY_NAME根据自己的信息改变)
+(ssh方式) git remote add origin git@github.com:GITHUBUSER_NAME/REPOSITORY_NAME.git
+(https方式) git remote add origin https://github.com/GITHUBUSER_NAME/REPOSITORY_NAME.git
 传当前仓库当前分支到远程仓库的master分支
 git push -u orgin master
 
