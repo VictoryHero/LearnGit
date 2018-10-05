@@ -76,3 +76,13 @@ git branch -D <branch name>
 	即复制目标分支的新提交到本分支
 git merge <branch name>
 
+[远程仓库]
+  [Github]
+	在github注册帐号-->点击右上角加号-->New Repository-->选择public仓库-->不选择创建README\liscense\gitignore等文件 -->记录下https / ssh 访问远程仓库的方式 传本地仓库到远程的github
+
+创建本地仓库到远程仓库的链接 (GITHUBUSER_NAME REPOSITORY_NAME根据自己的信息改变)
+(ssh方式) git remote add orgin git@github.com:GITHUBUSER_NAME/REPOSITORY_NAME.git
+(https方式) git remote add orgin https://github.com/GITHUBUSER_NAME/REPOSITORY_NAME.git
+传当前仓库当前分支到远程仓库的master分支
+git push -u orgin master
+
