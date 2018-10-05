@@ -49,6 +49,12 @@ b - 表示 减少的修改 减少的内容
 撤销本地的某些改动
 git checkout <file or directory name>
 
-
+[文件忽略]
+在与.git同级的目录下 创建一个 .gitignore  文件
+文件中写入如下：
+	*.html *.xml *.sql   (忽略这个为后缀的文件)
+	directory/filename (忽略某个位置下的具体的文件)
+	
+将文件 add 并commit 即可生效 （此类文件不会被仓库git关注、上传 ）
 
 
