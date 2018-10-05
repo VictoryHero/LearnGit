@@ -1,0 +1,33 @@
+git的配置文件
+局部--每个仓库的.git/config
+全局-- ~/gitconfig
+
+
+git config (--global) user.email "xxxx"
+git config (--global) user.name"xxxx"
+创建本地仓库
+git init <文件夹名> 
+	（git init .在当前文件夹下创建）
+
+查看当前仓库的状态
+(提醒你哪些文件（或文件的修改）没有加到待提交列表 列表哪些文件没有提交到本地仓库 以及提示你该怎么用git 帮助你解决文件冲突)
+git status 
+
+查看提交日志  
+git log 
+查看某条日志详情
+git show <commit-id>
+
+
+提交文件或改动到待提交列表
+git add <filename>
+
+提交文件的删除到列表
+git rm <filename>
+
+撤销提交列表中的内容
+git reset HEAD <file or directory name>
+撤销本地的某些改动
+git checkout <file or directory name>
+
+
