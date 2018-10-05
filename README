@@ -57,4 +57,22 @@ git checkout <file or directory name>
 	
 将文件 add 并commit 即可生效 （此类文件不会被仓库git关注、上传 ）
 
+[分支]
+创建分支后 新分支会复制master目前的提交 但之后新分支与master分支的修改互不干扰
+查看当前仓库的分支
+git branch 
+
+创建分支
+git branch <branch name>
+
+切换到分支
+git checkout <branch name>
+
+删除分支
+git branch -D <branch name>
+
+合并分支   
+	完全复制 其他分支有但当前分支没有的提交 到当前分支 （commit-id也相同）
+	即复制目标分支的新提交到本分支
+git merge <branch name>
 
