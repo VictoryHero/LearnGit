@@ -1,5 +1,9 @@
 
 
+[TOC]
+
+
+
 ## 本地仓库基础
 
 本地`Git`操作三部曲，是“修改-添加-提交”。
@@ -125,7 +129,7 @@ git pull origin master:master
 
 ## 分支
 
-#### **创建分支**
+#### 创建分支
 
 创建新的分支 当你需要创建一个新的分支的时候，可以使用`git branch`命令，其具体使用格式为： `git branch 新的分支名字` 使用示例如下：
 
@@ -134,7 +138,7 @@ git pull origin master:master
 git branch new_branch
 ```
 
-#### **切换分支**
+#### 切换分支
 
 分支切换 可以使用`git checkout 分支名` 命令切换到其他分支 使用示例如下：
 
@@ -150,7 +154,7 @@ git checkout new_branch
 git checkout -b new_branch
 ```
 
-#### **删除本地分支**
+#### 删除本地分支
 
 删除本地分支，需要用到`git branch`命令，且需要`-D`参数，具体命令格式为： 　`git branch -D 需要删除的分支的名字` 使用示例如下：
 
@@ -159,7 +163,7 @@ git checkout -b new_branch
  git branch -D develop
 ```
 
-#### **删除远程分支**
+#### 删除远程分支
 
 推送空分支实现远程分支的删除方法,具体的命令格式为：`git push 远程主机名 :远程分支`
 
