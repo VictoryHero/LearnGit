@@ -1,9 +1,3 @@
-
-
-[TOC]
-
-
-
 ## 本地仓库基础
 
 本地`Git`操作三部曲，是“修改-添加-提交”。
@@ -808,3 +802,13 @@ educode:x:1001:1001:,,,:/home/educode:/bin/bash
 ```
 
 改为： `educode:x:1001:1001:,,,:/home/educode:/usr/bin/git-shell` 这样，`eudcoder`用户可以正常通过`ssh`使用`git`，但是无法登录`shell`。 通过以上步骤就完成了`Git`服务器的搭建，然后就可以通过`Git`命令，克隆远程仓库，并向远程仓库推送代码了。
+
+## 常见问题(持续更)
+
+[Markdown中Tob生成目录在github的README中失效](https://blog.csdn.net/weixin_34146986/article/details/89651958)
+
+[未配置密钥时如何pull/push记住账密](https://blog.csdn.net/l1175832366/article/details/103328167)
+
+[Git在Windows上中文乱码](https://blog.csdn.net/weixin_44256848/article/details/88716176?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.not_use_machine_learn_pai&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.not_use_machine_learn_pai)
+
+[Git提交出现ssl_connect错误](https://blog.csdn.net/l1175832366/article/details/103339851)
